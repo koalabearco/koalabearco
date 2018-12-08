@@ -1,7 +1,7 @@
 import React from "react"
 import Helmet from "react-helmet"
 import "../assets/sass/styles.sass"
-import koalabear from '../assets/images/koalabear.svg'
+import koalabear from '../assets/images/koalabear.png'
 
 export default () =>
     <div>
@@ -13,8 +13,11 @@ export default () =>
         <section className="hero is-primary is-fullheight is-bold">
             <div className="hero-body">
                 <div className="container">
-                    <img src={koalabear}/>
-                    <h2 className="title">
+                    <img src={koalabear} alt='koala-bear-co' height="100" width="100"/>
+                    <h1 className="title">
+                        Koala Bear Co.
+                    </h1>
+                    <h2 className="subtitle">
                         Thousands of businesses are graduating from typical CMS, and making more money by
                         building a Stronger, Faster, and Intelligent Web Presence. We make solutions that scale, along
                         with your business’ growth,
