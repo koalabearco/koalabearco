@@ -1,0 +1,25 @@
+{
+  "name": "koalabearco",
+  "description": "Koala Bear Co. Website",
+  "license": "MIT",
+  "author": "Vaibhav Sharma",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "rm -rf public .cache"
+  },
+  "dependencies": {
+    "bulma": "^0.7.2",
+    "gatsby": "^2.0.33",
+    "gatsby-plugin-manifest": "^2.0.11",
+    "gatsby-plugin-purgecss": "^2.4.0",
+    "gatsby-plugin-react-helmet": "^3.0.4",
+    "gatsby-plugin-sass": "^2.0.7",
+    "node-sass": "^4.10.0",
+    "react": "^16.5.1",
+    "react-dom": "^16.5.1",
+    "react-helmet": "^5.2.0"
+  }
+}
